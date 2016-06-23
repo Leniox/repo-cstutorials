@@ -11,7 +11,7 @@ void setup()
 
 void loop() {
    
-  if (Serial.available() {
+  if (Serial.available()) {
     incomingChar = Serial.read();
     Serial.println(incomingChar);
     Serial.print(' ');
